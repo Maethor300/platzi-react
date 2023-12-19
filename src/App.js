@@ -1,23 +1,23 @@
  
 import './App.css';
-
+import  { TodoCounter } from './Components/TodoCounter.jsx';
+import { TodoFilter } from './Components/TodoFilter.jsx';
+import { TodoList } from './Components/TodoList.jsx';
+import { TodoItem } from './Components/TodoItems.jsx';
+import { ButtonCreate } from './Components/ButtonCreate.jsx';
 function App() {
   return(
-    <div>
-      
+    <div className='App'>
+    <TodoCounter completed={16} total={25}/> 
+    <TodoFilter/>
+    <TodoList>
     <TodoItem/>
     <TodoItem/>
     <TodoItem/>
+    </TodoList>
+    <ButtonCreate/> 
     </div>
   )
 }
-function TodoItem(){
-  return (
-    <div className="App">
-      <span>V</span>
-      <p>Leer Lord of the rings</p>
-      <span>X</span>
-    </div>
-  );
-}
+ 
 export default App;
