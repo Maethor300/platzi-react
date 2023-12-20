@@ -1,0 +1,9 @@
+ul{
+     display: block;
+     text-decoration: none;
+     list-style-type: none;
+     text-align: center;
+     font-size: 24px;
+     padding-right: 40px;
+     
+}

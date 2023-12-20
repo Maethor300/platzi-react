@@ -1,0 +1,14 @@
+li{
+    background-color:azure;
+    margin-bottom: 20px;
+    border: 3px solid black
+}
+.positive{
+    display: flex;
+    justify-content: start;
+}
+.negative{
+    display: flex;
+    
+  
+}
